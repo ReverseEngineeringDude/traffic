@@ -84,20 +84,26 @@ An intelligent, AI-powered, real-time traffic monitoring and routing application
 
 ```bash
 git clone https://github.com/fehedcv/traffic.git
+```
+change directory
+```bash
 cd kottakkal-traffic-system
+```
 
 Install Frontend Dependencies
-
+```bash
 npm install
+```
 
 Run the Frontend
-
+```bash
 npm run dev
+```
 
 Start the Backend API (FastAPI)
-
+```bash
 uvicorn app:main --reload
-
+```
 > Ensure your Python virtual environment is activated and requirements.txt is installed (pip install -r requirements.txt).
 
 
